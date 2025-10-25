@@ -68,9 +68,9 @@ export default function Highlights() {
           ))}
         </CarouselContent>
         <div className="flex items-center justify-center gap-4">
-          <div className="relative py-8">
-            <CarouselPrevious className="p-2" />
-            <CarouselNext className="p-2" />
+          <div className="relative">
+            <CarouselPrevious className="p-1.5" />
+            <CarouselNext className="p-1.5" />
           </div>
         </div>
       </Carousel>
