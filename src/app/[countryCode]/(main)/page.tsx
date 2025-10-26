@@ -5,6 +5,7 @@ import Hero from "@modules/home/components/hero"
 import { listCollections } from "@lib/data/collections"
 import { getRegion } from "@lib/data/regions"
 import Highlights from "@modules/home/components/highlights"
+import Categories from "@modules/home/components/categories"
 
 export const metadata: Metadata = {
   title: "Skinfriend.mn",
@@ -31,7 +32,9 @@ export default async function Home(props: {
   return (
     <>
       <Hero />
+      <Categories />
       <Highlights />
+
       <div className="py-12">
         <ul className="flex flex-col gap-x-6">
           <FeaturedProducts collections={collections} region={region} />
