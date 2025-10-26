@@ -7,9 +7,8 @@ import { getRegion } from "@lib/data/regions"
 import Highlights from "@modules/home/components/highlights"
 
 export const metadata: Metadata = {
-  title: "Medusa Next.js Starter Template",
-  description:
-    "A performant frontend ecommerce starter template with Next.js 15 and Medusa.",
+  title: "Skinfriend.mn",
+  description: "All from USA",
 }
 
 export default async function Home(props: {
