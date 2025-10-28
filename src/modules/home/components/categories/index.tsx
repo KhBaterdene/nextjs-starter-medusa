@@ -1,6 +1,6 @@
 export default function Categories() {
   return (
-    <div className="py-12 space-y-6">
+    <div className="py-12 space-y-6 px-4">
       <h1 className="font-medium text-xl md:text-2xl md:content-container text-center">
         What Are You Shopping For?
       </h1>
