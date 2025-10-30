@@ -2,12 +2,12 @@ export default function Categories() {
   return (
     <div className="py-12 space-y-6 px-4">
       <h1 className="font-medium text-xl md:text-2xl md:content-container text-center">
-        What Are You Shopping For?
+        Та юу хайж байна вэ?
       </h1>
       <div className="grid grid-cols-3 lg:grid-cols-6 gap-4 md:content-container">
         {[
-          "Moisturizers",
-          "Cleansers",
+          "Чийгшүүлэгч",
+          "Цэвэрлэгч",
           "Eye & Lip",
           "Serums",
           "Toners",
