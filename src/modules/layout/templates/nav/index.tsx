@@ -26,7 +26,7 @@ export default async function Nav() {
               className="txt-compact-xlarge-plus text-ui-fg-base uppercase"
               data-testid="nav-store-link"
             >
-              <Logo long className="w-auto h-5" />
+              <Logo long className="w-auto h-4" />
             </LocalizedClientLink>
           </div>
 

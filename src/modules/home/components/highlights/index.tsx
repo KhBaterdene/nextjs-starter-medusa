@@ -14,6 +14,12 @@ import { useEffect, useRef, useState } from "react"
 
 const mockHighlights = [
   {
+    video: "/highlight-6.mp4",
+  },
+  {
+    video: "/highlight-5.mp4",
+  },
+  {
     image: "/highlight-1.jpg",
   },
   {
@@ -25,12 +31,7 @@ const mockHighlights = [
   {
     video: "/highlight-4.mp4",
   },
-  {
-    video: "/highlight-5.mp4",
-  },
-  {
-    video: "/highlight-6.mp4",
-  },
+
   {
     video: "/highlight-7.mp4",
   },
@@ -50,6 +51,9 @@ export default function Highlights() {
 
   return (
     <div className="md:content-container pt-12">
+      <div className="text-2xl font-medium text-center">
+        Хэрэглэгчдийн сэтгэгдэл
+      </div>
       <Carousel opts={{ loop: true, align: "center" }} setApi={setApi}>
         <CarouselContent>
           {mockHighlights.map((highlight, index) => (

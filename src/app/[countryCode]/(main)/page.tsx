@@ -6,6 +6,7 @@ import { listCollections } from "@lib/data/collections"
 import { getRegion } from "@lib/data/regions"
 import Highlights from "@modules/home/components/highlights"
 import Categories from "@modules/home/components/categories"
+import { Brands } from "@modules/home/components/brands"
 
 export const metadata: Metadata = {
   title: "Skinfriend.mn",
@@ -32,6 +33,7 @@ export default async function Home(props: {
   return (
     <>
       <Hero />
+      <Brands />
       <Categories />
       <Highlights />
 
