@@ -74,7 +74,7 @@ const Brands = ({
         <h1 className="mb-12  text-2xl font-medium text-pretty">{heading}</h1>
       </div>
       <div>
-        <div className="relative mx-auto flex items-center justify-center lg:max-w-5xl">
+        <div className="relative mx-auto flex items-center justify-center content-container">
           <Carousel
             opts={{ loop: true }}
             plugins={[
@@ -112,8 +112,6 @@ const Brands = ({
               ))}
             </CarouselContent>
           </Carousel>
-          <div className="absolute inset-y-0 left-0 w-12 bg-linear-to-r from-background to-transparent"></div>
-          <div className="absolute inset-y-0 right-0 w-12 bg-linear-to-l from-background to-transparent"></div>
         </div>
       </div>
     </section>
